@@ -2,7 +2,7 @@ version: 2
 jobs:
   one:
     docker:
-      - image: cimg/ruby:3.0.2
+      - image: cimg/ruby:3.3.1
         auth:
           username: mydockerhub-user
           password: SDOCKERHUB PASSWORD 
